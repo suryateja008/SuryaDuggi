@@ -5,8 +5,9 @@ body
 
 #container
 {
-  margin:0px auto 0px auto;
+  margin:auto;
   width:800px;
+  height:200px;
 }
 
 #container h1
