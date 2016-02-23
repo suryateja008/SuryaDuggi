@@ -1,0 +1,30 @@
+.row{
+  margin-bottom: 30px;
+}
+
+body{
+background-color: rgba(237, 239, 241,.5);
+font-family: sans-serif;
+}
+
+.border-line{
+border-right: 1px solid #ccc;
+}
+
+.e-color{
+color:rgb(41,41,48);
+text-shadow: 2px 2px #ddd;
+}
+
+.img-center{
+margin-top: 25%;
+}
+
+footer{
+background-color: rgb(41,41,48);
+border-top:1px solid #ccc;
+height: 60px;
+color: #fff;
+text-align: center;
+padding: 10px
+}
