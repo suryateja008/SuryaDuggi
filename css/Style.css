@@ -12,13 +12,21 @@ border-right: 1px solid #ccc;
 }
 
 .e-color{
-color:rgb(41,41,48);
-text-shadow: 2px 2px #ddd;
+  color:rgb(41,41,48);
+  text-shadow: 2px 2px #ddd;
+
+
+}
+
+.titles{
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .img-center{
 margin-top: 25%;
 }
+
 
 footer{
 background-color: rgb(41,41,48);
