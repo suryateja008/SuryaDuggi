@@ -1,290 +1,246 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>My Resume</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/Style.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PortFolio</title>
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="css/style.css" rel="stylesheet"/>
 </head>
-
 <body>
 
-            <nav class="navbar navbar-inverse" role="navigation">
-          <div class="container-fluid">
+    <div  class="container-fluid" id="parallex">
+             <div id="main" class="row">
+                 <div class="col-md-12">
+                 <!-- initial page div width center-->
+                   <div id="photo-content" class="row">
+                       <div class="col-xs-12">
+                           <img class="image" src="images/avatar.png" alt="img" />
+                           <p>Welcome Folks!</p>
 
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html">My Resume</a>
-            </div>
+                           <h2>I'm SuryaTeja Duggi</h2>
+                           <br/>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
+                           <h3>Check Out <a href="#portfolio">Below</a></h3>
 
-              </ul>
+                       </div>
+                   </div>
+                 <!-- initial page end div-->
+                 </div>
+             </div>
+        <!-- end of photo main-->
+    </div>
 
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-
-    <!-- Start of the container class -->
-
-<div class="container">
+    <div class="container-fluid" id="navbar">
 
         <div class="row">
-             <div class="col-sm-4">
-                <img src="images/suryaduggi.jpg" alt="photo" class="img-thumbnail iimg" width=240 height=240>
-             </div>
+            <div class="col-xs-12 col-md-3 navBut">
+                <a href="#portfolio">Portfolio</a>
+            </div>
+            <div class="col-xs-12 col-md-3 navBut">
+                <a href="#resume">Resume</a>
+            </div>
+            <div class="col-xs-12 col-md-3 navBut">
+                <a href="#about">About</a>
+            </div>
+            <div class="col-xs-12 col-md-3 navBut">
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
 
-             <div class="col-sm-8">
-                <div class="panel panel-danger">
-                     <div class="panel-heading">About Me</div>
-                     <div class="panel-body">
-                       <table class="table">
-                            <tr>
-                              <td><strong> Name : </strong></td>
-                              <td><i>SuryaTeja Duggi</i></td>
-                           </tr>
-                           <tr>
-                              <td><strong> Phone Number :</strong></td>
-                              <td><i> 408-210-5512 </i></td>
-                           </tr>
-                           <tr>
-                              <td><strong>E-mail :</strong></td>
-                              <td>
-                                  <a href="mailto:#"><i>Suryateja008@gmail.com</i></a>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <td><strong>Address :</strong></td>
-                              <td>
-                                  <address>
-                                  <i> 2147 NewHall St Apt 219 <br/> Santa Clara, CA 95050 </i>
-                                  </address>
+    <div class="container-fluid">
 
-                              </td>
-                           </tr>
-                           <tr>
-                               <td><strong> Github : </strong></td>
-                               <td><i> <a href="https://github.com/suryateja008">https://github.com/suryateja008</a> </i></td>
-                           </tr>
-                       </table>
+        <div class="row" id="portfolio">
+
+           <header>
+               <h3>Portfolio</h3>
+           </header>
+            <header>
+                <h3>working.....</h3>
+            </header>
+
+
+        </div>
+
+        <div class="row" id="resume">
+
+             <header>
+                 <h3>Resume</h3>
+             </header>
+            <div class="timeLineContainer">
+                <header class="rheader">
+                   Experience
+                </header>
+                <div class = "col-xs-6 left">
+                    <div class = "row">
+                        <div class = "items floatright">
+                            <img src = "images/right.png" class = "rightimage">
+                                <p>
+                                 <strong>
+                                       Software Engineer Intern
+                                 </strong><br>
+                                    <strong>
+                                        <small>
+                                           Atypon System Inc, Santa Clara, CA
+                                        </small>
+                                    </strong><br>
+                                    <span class="date">June 2015 - Dec 2015</span>
+                               </p>
+                               <p><small>Client and server side development for mobile and desktop</small></p>
+
+                        </div>
+
                     </div>
-
                 </div>
-             </div>
+
+                <div class = "col-xs-6 right">
+                    <div class = "row">
+                        <div class = "items floatleft">
+                            <img src = "images/left.png" class = "leftimage">
+                            <p>
+                                <strong>
+                                    Research Assistant
+                                </strong><br>
+                                <strong>
+                                    <small>
+                                        Frugal Innovation Lab, Santa Clara, CA
+                                    </small>
+                                </strong><br>
+                                <span class="date">Jan 2016 - April 2016</span>
+                            </p>
+                            <p><small>Design and development of web application for client</small></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="timeLineContainer">
+                <header class="rheader">
+                    Education
+                </header>
+                <div class = "col-xs-6 left">
+                    <div class = "row">
+                        <div class = "items floatright">
+                            <img src = "images/right.png" class = "rightimage">
+                             <p>
+                                <strong>
+                                    Master's in Computer Science
+                                </strong><br>
+                                <strong>
+                                    <small>
+                                        Santa Clara University, Santa Clara, CA
+                                    </small>
+                                </strong><br>
+                                 <span class="date">Sept 2014 - Jun 2016</span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class = "col-xs-6 right">
+                    <div class = "row">
+                        <div class = "items floatleft">
+                            <img src = "images/left.png" class = "leftimage">
+                            <p>
+                                <strong>
+                                    Bachelor's in Information Science
+                                </strong><br>
+                                <strong>
+                                    <small>
+                                        Visvesvaraya Technological University, Belgaum, India
+                                    </small>
+                                </strong><br>
+                                <span class="date">Sept 2009 - Jun 2013</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-   <hr>
 
-    <div class="row">
-        <h2 class="e-color titles"><u>Experience</u></h2>
-         <div class="col-sm-8">
-             <div class="panel panel-default">
-                 <div class="panel-heading">
-                     <h3 class="panel-title">Atypon System Inc</h3>
-                     <span>Santa Clara, CA</span>
-                 </div>
-                 <div class="panel-body">
-                     <span><b>Software Engineer Intern</b></span>
-                     <ul>
-                         <li>
-                             Developed REST API oriented features along with SEO, Caching and Lazy loading mechanism achieving faster
-                             page response time[<b>Backbone Js, Underscore Js, Require Js, JQuery</b>].
-                         </li>
-                         <li>
-                             Designed and Developed widgets for PageBuilder a WYSIWYG Product that helped end user to drag and drop to
-                             customize web pages.[<b> Java, javaScript, JSP,JSTL,HTML,CSS & SpringFramework </b>].
-                         </li>
-                         <li>
-                             Collaborated with team to achieve client requirements on various functionality.
-                         </li>
-                     </ul>
-                 </div>
-             </div>
-         </div>
-    </div>
-    <hr>
-        <div class="row">
-            <h2 class="e-color titles"><u>Education</u></h2>
-           <div class="col-sm-6 border-line">
-
-               <p class="e-color">
-                   Master's in Computer Science <br />
-                   <strong>Santa Clara, CA 95050</strong>  <br />
-                   CGPA-3.50/4
-               </p>
-
-               <p class="e-color">
-               Bachelor's in Information Science and Engineering <br />
-                   <strong>BITM, Bellary, India</strong>  <br />
-                   CGPA-3.70/4
-               </p>
-           </div>
-
-           <div class="col-sm-1">
-           </div>
-
-            <div class="col-sm-5">
-               <img src="images/education.jpg" alt="education" class="img-circle" width="180" height="180">
-           </div>
-
-       </div>
-    <hr>
-
-    <div class="row">
-        <h2 class="e-color titles"><u>Technical Skills</u></h2>
-           <div class="col-sm-6 border-line">
-                   <h3 class="e-color">Programming Skills</h3>
-                  <ol class="e-color">
-                      <li>Javascript</li>
-                      <li>Java</li>
-                      <li>HTML5</li>
-                      <li>CSS3</li>
-                      <li>Jquery</li>
-                      <li>Oracle / MySql</li>
-                      <li>Python</li>
-                      <li>C</li>
-                      <li>C++</li>
-
-                  </ol>
-
-
-
-                   <h3 class="e-color">Software & OS Used</h3>
-                  <ol class="e-color">
-                   <li>Windows</li>
-                   <li>Linux</li>
-                   <li>Mac OS X</li>
-                  </ol>
-
-           </div>
-
-           <div class="col-sm-1">
-           </div>
-
-            <div class="col-sm-5">
-               <img src="images/technical.jpg" alt="education" class="img-circle img-center" width="180" height="180">
-           </div>
-
-       </div>
-    <hr>
-
-    <div class="container">
-        <h1 class="e-color" style="text-align:center"><u>Academic Projects</u></h1>
-    </div>
-
-    <div class="row" style="text-align:justify">
-
-    <div class="col-sm-4">
-     <div class="thumbnail">
-      <img src="images/data-mining.png" alt="DataMining">
-      <div class="caption">
-        <h3 class="e-color">Super Market Data Mining</h3>
-
-          Product suggestion based on Monetary and frequency attributes processed on raw dataset for
-          individual user using RFM analysis.<br />
-        Frequency and Monetary seasonal analysis of data for products recommendation and supply chain
-        <br /><br />
-            <ul>
-              <li>Seasonal analysis on frequency and monetary attributes</li>
-              <li>Technology Stack - PHP, MySQL, d3.js, HTML, CSS</li>
-          </ul>
-
-      </div>
-     </div>
-   </div>
-
-    <div class="col-sm-4">
-     <div class="thumbnail">
-      <img src="images/Web-chat.jpg" alt="Movies">
-      <div class="caption">
-        <h3 class="e-color">Private Chat</h3>
-
-This application lets user to chat with his friends, send friend request, accept or decline friend request.<br /><br />
-          <ul>
-              <li>User can chat with multiple friends at a time, shows all the previous chat history, updates chat every second.</li>
-              <li>Technology Stack – PHP, HTML, CSS3, JavaScript, Jquery, MySql, Apache.</li>
-              <li><a href="https://github.com/suryateja008/Private-Chat">https://github.com/suryateja008/Private-Chat</a> </li>
-          </ul>
-
-      </div>
-     </div>
-   </div>
-
-   <div class="col-sm-4">
-     <div class="thumbnail">
-      <img src="images/wifi_zone.jpg" alt="wifi_zone">
-      <div class="caption">
-        <h3 class="e-color">Location Settings</h3>
-
-This application helps user to automatically change the smartphone ring mode to preferred mode based on particular WIFI Zone along with time scheduling, just time scheduling or just WIFI Zone.<br /><br />
-          <ul>
-              <li>Automatically changing the Settings when user enters particular WIFI Zone with or without Time Scheduler</li>
-              <li>Technology Stack - Java.</li>
-              <li><a href="https://github.com/suryateja008/LocationSettings">https://github.com/suryateja008/LocationSettings</a> </li>
-          </ul>
-
-      </div>
-     </div>
-   </div>
-
-   <div class="col-sm-4">
-     <div class="thumbnail">
-      <img src="images/wifi-strength.png" alt="strength">
-      <div class="caption">
-        <h3 class="e-color">Real Time Heat Map</h3>
-
-This application lets users to know the WIFI signal strength of SCU campus on Google Maps. User can refresh to get new data from the cloud.<br /><br />
-
-            <ul>
-              <li>Data is push to the cloud by the application running on users phone, helping user to know the WIFI strength of particular WIFI.</li>
-              <li>Technology Stack - Java.</li>
-              <li><a href="https://github.com/suryateja008/HeatMap "> https://github.com/suryateja008/HeatMap </a> </li>
-          </ul>
-
-      </div>
-     </div>
-   </div>
-
-        <div class="col-sm-4">
-            <div class="thumbnail">
-                <img src="images/movies.jpg" alt="movies">
-                <div class="caption">
-                    <h3 class="e-color">Online Movie Rental</h3>
-
-                    Developed web application where user can rent movies by adding to cart, searching for movies etc. Statistical analysis for administrator with option to add, delete and modify movies.<br /><br />
-
-                    <ul>
-                        <li>This is a single Page applicaiton(SPA) with URL Semantics</li>
-                        <li>Technology Stack - PHP, HTML, CSS3, JavaScript, Jquery, MySql</li>
-                        <li><a href="https://github.com/suryateja008/MovieRental">https://github.com/suryateja008/MovieRental</a> </li>
+        <div class="row" id="skills">
+            <header>
+                <h3>Resume</h3>
+            </header>
+            <div class="col-xs-12">
+                <div id="skilllist">
+                    <ul class="text-left">
+                        <li class="icon-md">&nbsp;Java&nbsp;</li>
+                        <li class="icon-md">&nbsp;Core Java&nbsp;</li>
+                        <li class="icon-lg">&nbsp;JavaScript</li>
+                        <li class="icon-lg">&nbsp;JQuery&nbsp;</li>
+                        <li class="icon-sm">&nbsp;Ajax&nbsp;</li>
+                        <li class="icon-lg">&nbsp;HTML5</li>
+                        <li class="icon-md">&nbsp;Bootstrap&nbsp;</li>
+                        <li class="icon-lg">&nbsp;CSS3&nbsp;</li>
+                        <li class="icon-md">&nbsp;PHP&nbsp;</li>
+                        <li class="icon-md">&nbsp;MySQL&nbsp;</li>
+                        <li class="icon-md">&nbsp;JSON&nbsp;</li>
+                        <li class="icon-sm">&nbsp;XML&nbsp;</li>
+                        <li class="icon-lg">&nbsp;Android Development&nbsp;</li>
+                        <li class="icon-lg">&nbsp;Responsive Web Design&nbsp;</li>
+                        <li class="icon-md">&nbsp;RESTful Web Services&nbsp;</li>
+                        <li class="icon-md">&nbsp;Object Oriented Design&nbsp;</li>
+                        <li class="icon-sm">&nbsp;Version Control (Git, SVN)&nbsp;</li>
+                        <li class="icon-sm">&nbsp;Model View Controller&nbsp;</li>
+                        <li class="icon-sm">&nbsp;Grunt&nbsp;</li>
                     </ul>
-
                 </div>
+            </div>
+
+        </div>
+
+
+        <div class="row" id="about">
+            <div class="col-sm-6">
+                <img class="image" src="images/avatar.png" alt="img" />
+            </div>
+            <div class="col-sm-5">
+                 <h3>All about me...</h3>
+                 <p>I'm Web and Mobile developer passion for design and developing engaging applications.
+                 I have wide range of skills and experience in both front-end and backend development includes
+                 building responsive websites, developing RESTful APIs and it goes on..</p>
             </div>
         </div>
 
+        <div class="row" id="contact">
+            <header>
+                <h3>Get in Touch</h3>
+            </header>
+            <div class="col-xs-12">
+                <p>Address : Newhall St, Santa Clara, CA</p>
+                <p>Phone : +1 (408) 210 5512</p>
+                <p><a href="mailto:suryateja008@gmail.com?Subject=Hello"> E-mail : suryateja008@gmail.com</a></p>
+                <ul>
+                    <li><a href="http://github.com/suryateja008"><img src="images/fs-github.png" alt="github"></a></li>
+                    <li><a href="https://www.linkedin.com/in/suryateja-duggi-14b08248"><img src="images/linkedin.png" alt="linkedin"></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row" id="footer">
+               <footer>
+                  <p>&copy; 2016 Surya Duggi</p>
+                  <p>Power By Twitter Bootstrap Grid</p>
+               </footer>
+        </div>
+
     </div>
 
- </div>
 
-    <!-- End of container class -->
-<footer>
-   <div class="container">
-      <p>
-        Copyright &copy; 2016
-      </p>
-   </div>
-</footer>
+
+    <!--  start of javascript files -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
