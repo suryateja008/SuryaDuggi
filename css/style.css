@@ -4,6 +4,7 @@
 #main {
     background-color:#2980B9;
     height:100vh;
+    padding-top:180px;
 }
 
 .image {
@@ -20,19 +21,13 @@
     margin:0px auto 0px auto;
     max-width:100%;
     text-align:center;
-    padding:5px;
+    padding:5px 5px 100px 5px;
     color:white;
     font-family: cursive;
 }
 
 #photo-content p{
     font-size: 1.2em;
-}
-
-
-
-#main {
-    padding-top:180px;
 }
 
 @media screen and (max-width: 767px) {
